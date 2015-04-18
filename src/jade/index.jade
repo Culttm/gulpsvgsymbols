@@ -1,0 +1,17 @@
+extends layouts/layout-main
+block content
+    .container
+        svg(class="icon-svg icon-fear")
+            use(xlink:href="#fear")
+        svg(class="icon-svg icon-profile")
+            use(xlink:href="#profile")
+        svg(class="icon-svg icon-anger")
+            use(xlink:href="#anger")
+        svg(class="icon-svg icon-aversion")
+            use(xlink:href="#aversion")
+    style.
+        .icon-svg{
+            width: 50px;
+            height: 50px;
+            fill: blue;
+        }
